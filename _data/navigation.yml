@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: https://duymanh3602.github.io/blog2.github.io/docs/quick-start-guide/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://duymanh3602.github.io/blog2.github.io/about/
   - title: "Sample Posts"
-    url: /year-archive/
+    url: https://duymanh3602.github.io/blog2.github.io/year-archive/
   - title: "Sample Collections"
-    url: /collection-archive/
+    url: https://duymanh3602.github.io/blog2.github.io/collection-archive/
   - title: "Sitemap"
-    url: /sitemap/
+    url: https://duymanh3602.github.io/blog2.github.io/sitemap/
