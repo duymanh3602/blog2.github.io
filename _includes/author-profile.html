@@ -5,7 +5,7 @@
 
   {% if author.avatar %}
     <div class="author__avatar">
-      <a href="https://duymanh3602.github.io/manhdinh">
+      <a href="{{ author.avatar | relative_url }}">
         <img src="{{ author.avatar | relative_url }}" itemprop="image" class="u-photo">
         <!--alt="{{ author.name }}"-->
       </a>
