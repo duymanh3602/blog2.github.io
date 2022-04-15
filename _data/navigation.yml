@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: /docs/_pages/pets/
+    url: /pets/
   - title: "About"
-    url: /docs/_pages/about/
+    url: /about/
   - title: "Sample Posts"
-    url: /docs/_pages/year-archive/
+    url: /year-archive/
   - title: "Sample Collections"
-    url: /docs/_pages/collection-archive/
+    url: /collection-archive/
   - title: "Sitemap"
-    url: /docs/_pages/sitemap/
+    url: /_pages/sitemap/
