@@ -64,8 +64,8 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : JN327BQEOG # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : f463f4294a3815529ef8b939625cb318 # YOUR_SEARCH_ONLY_API_KEY
+  index_name             : manh_sites # YOUR_INDEX_NAME
+  search_only_api_key    : bf1b3760db0484d93d5ca3161a8ad506 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Đinh Duy Mạnh"
-  avatar           : "https://github.com/duymanh3602/manhdinh/blob/master/docs/assets/images/bio-photo.jpg" # path of avatar image, e.g. ""
+  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. ""
   bio              : "I am an **amazing** person."
   location         : "Hanoi, VietNam"
   email            :

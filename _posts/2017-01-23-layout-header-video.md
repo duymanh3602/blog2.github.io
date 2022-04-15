@@ -29,7 +29,7 @@ To embed the following YouTube video at url `https://www.youtube.com/watch?v=Xsx
 {% raw %}{% include video id="XsxDH4HcOWA" provider="youtube" %}{% endraw %}
 ```
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+{% include video id="JRfuAukYTKg" provider="youtube" %}
 
 To embed it as a video header you'd use the following YAML Front Matter
 
