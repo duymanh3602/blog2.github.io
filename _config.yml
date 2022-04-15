@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Đinh Duy Mạnh"
-  avatar           : "/docs/assets/images/bio-photo.jpg" # path of avatar image, e.g. ""
+  avatar           : "https://github.com/duymanh3602/manhdinh/blob/master/docs/assets/images/bio-photo.jpg" # path of avatar image, e.g. ""
   bio              : "I am an **amazing** person."
   location         : "Hanoi, VietNam"
   email            :
