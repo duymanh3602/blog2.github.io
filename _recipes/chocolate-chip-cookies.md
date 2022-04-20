@@ -1,5 +1,5 @@
 ---
-permalink: /recipes/chocolate-chip-cookies/
+permalink: /chocolate-chip-cookies/
 title: "Chocolate Chip Cookies"
 ---
 
