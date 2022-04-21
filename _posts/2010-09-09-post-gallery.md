@@ -131,7 +131,7 @@ And place it like so:
 
 And for giggles one more gallery just to make sure this works. To fill page content container add `class="full"`.
 
-{% include gallery id="gallery3" class="full" caption="This is a third gallery example with two images and fills the entire content container." %}
+{% include gallery id="gallery2" class="full" caption="This is a third gallery example with two images and fills the entire content container." %}
 
 Gallery column layout can be overrided by setting a `layout`.
 
