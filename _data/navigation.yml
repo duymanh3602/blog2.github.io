@@ -2,11 +2,11 @@
 main:
   - title: "About"
     url: /archive-layout-with-content/
-  - title: "Gallery"
-    url: /post-archive-feature-rows/
   - title: "Blogs"
     url: /year-archive/
   - title: "Contact"
     url: /collection-archive/
   #- title: "Sitemap"
     #url: /sitemap/
+- title: "Gallery"
+    url: /post-archive-feature-rows/
