@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /archive-layout-with-content/
   - title: "About"
+    url: /archive-layout-with-content/
+  - title: "Hello"
     url: /post-archive-feature-rows/
   - title: "Sample Posts"
     url: /year-archive/
