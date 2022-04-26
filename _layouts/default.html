@@ -20,7 +20,8 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-      {{ content }}
+      {%if publish == true %}
+        {{ content }}
     </div>
 
     {% if site.search == true %}
