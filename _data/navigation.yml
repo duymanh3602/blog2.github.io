@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /archive-layout-with-content/
   - title: "About"
+    url: /archive-layout-with-content/
+  - title: "Blogs"
     url: /post-archive-feature-rows/
-  - title: "Sample Posts"
+  - title: "Contact"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "Gallery"
     url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Source"
+    url: /stocks/
