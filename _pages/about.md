@@ -34,7 +34,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 - Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), [giscus](https://giscus.app/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
 - [Google Analytics](https://www.google.com/analytics/) support.
 - UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
-
+<!--
 ## Demo Pages
 
 | Name                                        | Description                                           |
@@ -48,7 +48,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 | [Tags Archive][tags-archive] | Posts grouped by tag. |
 
 For even more demo pages check the [posts archive][year-archive].
-
+-->
 <!--
 #[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
 #[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
@@ -58,7 +58,7 @@ For even more demo pages check the [posts archive][year-archive].
 #[categories-archive]: {{ "/categories/" | relative_url }}
 #[tags-archive]: {{ "/tags/" | relative_url }}
 #[year-archive]: {{ "/year-archive/" | relative_url }}
--->
+
 
 ---
 
@@ -83,5 +83,5 @@ For even more demo pages check the [posts archive][year-archive].
 - [Lunr](http://lunrjs.com)
 
 ---
-
+-->
 Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
