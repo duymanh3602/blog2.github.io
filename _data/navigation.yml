@@ -5,8 +5,8 @@ main:
   - title: "Blogs"
     url: /blogs/
   - title: "Contact"
-    url: /year-archive/
+    url: /contact/
   - title: "Gallery"
-    url: /collection-archive/
+    url: /gallery/
   - title: "Source"
-    url: /stocks/
+    url: /source/
