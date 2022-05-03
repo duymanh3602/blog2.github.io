@@ -1,7 +1,9 @@
 ---
+layout: archive
 permalink: /about/
 title: "About"
 excerpt: "All information about me."
+author_profile: true
 last_modified_at: 2022-05-03T20:23:16-04:00
 toc: true
 ---
