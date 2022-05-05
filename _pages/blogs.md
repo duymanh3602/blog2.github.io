@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: blogs
 permalink: /blogs/
 title: "Blogs"
 excerpt: "My Blogs."
