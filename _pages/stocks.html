@@ -158,8 +158,8 @@ toc: true
       </div>
     </div>
     <hr>
-    <a href="#" id="search">Search for stocks</a>
-    <!--<div class="indices">
+    <!--<a href="#" id="search">Search for stocks</a>
+    <div class="indices">
       <div id="djia" class="stock">
         <div class="name">DJIA</div>
         <div class="price"></div>
@@ -175,8 +175,8 @@ toc: true
         <div class="price"></div>
         <div class="change"></div>
       </div>
-    </div>-->
-    <a href="#" id="viewChart">View chart</a>
+    </div>
+    <a href="#" id="viewChart">View chart</a>-->
     <div id="stockChart">
       <div id="tv-medium-widget-5e6f9"></div>
     </div>
@@ -195,6 +195,7 @@ toc: true
 
       $(".lastUpdated").text(`Last updated: ${lastUpdated}`);
       
+      <!--
       $("#search").on("click", function () {
         $(".searchbar").toggleClass("hidden");
       });
@@ -202,14 +203,13 @@ toc: true
 
       $("#viewChart").on("click", function () {
         $("#stockChart").toggleClass("hidden");
-      });
+      });-->
 
       $(".searchbar").keypress(function (e) {
         if (e.which == 13) {
           search = $(".searchbar").val();
           getStockInfo();
           getStockChart();
-          $("#stockChart").toggleClass("hidden");
         }
       });
     })
