@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: gallery
 permalink: /gallery/
 title: "Gallery"
 excerpt: "My Album."
