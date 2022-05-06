@@ -7,4 +7,4 @@ tags:
   - sample
 ---
 
-[img](gallery/file_example_PNG_500kB.png)
+![sample]({{ "/gallery/file_example_PNG_500kB.png" | relative_url }})
