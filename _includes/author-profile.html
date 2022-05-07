@@ -48,8 +48,6 @@
         </li>
       {% endif %}
       
-      <a href="tel:+84948059121">0948-059-121</a>
-
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
@@ -58,7 +56,9 @@
           </a>
         </li>
       {% endif %}
-
+      
+      <a href="tel:+84948059121">0948-059-121</a>
+      
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
