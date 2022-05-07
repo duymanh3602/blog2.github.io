@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /source/
-title: "Source"
+permalink: /cv/
+title: "CV"
 author_profile: true
 ---
