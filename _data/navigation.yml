@@ -8,7 +8,7 @@ main:
     url: /contact/
   - title: "Gallery"
     url: /gallery/
-  - title: "Source"
-    url: /source/
+  - title: "CV"
+    url: /cv/
   - title: "Stocks"
     url: /stocks/
