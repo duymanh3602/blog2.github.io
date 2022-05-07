@@ -1,7 +1,7 @@
 ---
 layout: gallery
 permalink: /gallery/
-title: "Gallery"
+title: "Gallery (developing)"
 excerpt: "My Album."
 author_profile: true
 ---
