@@ -1,6 +1,9 @@
 ---
 title: "Mother's Day"
 excerpt_separator: "<!--more-->"
+header:
+  image: /images/91379667.png
+  caption: "Photo credit: [**Timesofindia**](https://timesofindia.indiatimes.com/life-style/parenting/moments/happy-mothers-day-2022-images-quotes-wishes-messages-cards-greetings-pictures-and-gifs/articleshow/91379666.cms)"
 categories:
   - Blogs
 tags:
