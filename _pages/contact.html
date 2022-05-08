@@ -75,10 +75,35 @@ author_profile: true
 
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <button type="button" onclick="send()">Send
+                to me</button>
+            </form>
 
-        </form>
-        <a type="button" href="mailto:toilamanh2002@gmail.com?subject='From' + fname + lname + ': ' + email & body= subject">Send to me</a>
     </div>
+    <script>
+
+        
+        function send() {
+            window.open(getCode());
+        }
+
+        
+
+        function getSubject() {
+            return 'From ' + document.getElementById("fname").value + ' ' 
+            + document.getElementById("lname").value + " mail: "
+            + document.getElementById("email").value;
+        }
+
+        function getBody() {
+            return document.getElementById("subject").value;
+        }
+
+        function getCode() {
+            return "mailto:toilamanh2002@gmail.com?subject=" + getSubject() + "&body=" + getBody();
+        }
+
+    </script>
 </body>
 
 </html>
