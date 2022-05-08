@@ -7,7 +7,7 @@ categories:
   - Blogs
 tags:
   - blogs
-  - mother's day
+  - vietnam
 ---
 
 Trận Điện Biên Phủ (tiếng Pháp: Bataille de Diên Biên Phu; phát âm: [bataj də djɛ̃ bjɛ̃ fy]), còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, phụ lực quân bản xứ và Quân đội Quốc gia Việt Nam).
