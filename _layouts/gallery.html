@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%M"' %}
+  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%B"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
