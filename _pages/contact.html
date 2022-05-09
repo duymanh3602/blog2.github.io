@@ -123,14 +123,16 @@ Old version
             resize: vertical
         }
 
+        
+
         input[type=button] {
             background-color: #959c99;
             color: white;
             padding: 12px 20px;
             border: none;
             border-radius: 4px;
-            width: 90;
-            height: 40;
+            width: 10%;
+            height: 5%;
             cursor: pointer;
         }
 
@@ -141,8 +143,8 @@ Old version
         input[type=button2] {
             background-color: #04AA6D;
             color: white;
-            width: 90;
-            height: 40;
+            width: 10%;
+            height: 5%;
             padding: 12px 20px;
             border: none;
             border-radius: 4px;
@@ -157,6 +159,8 @@ Old version
             border-radius: 5px;
             padding: 20px;
         }
+
+        
     </style>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
@@ -177,7 +181,7 @@ Old version
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="button2" onclick="sendEmail()" value="Submit">
+            <input type="button2" onclick="send()" value="Submit">
             <input type="button" class="restButton" onclick="reset()" value="Reset">
             <!--<input type="button2" onclick="alert(resentSubject())" value="Submit">-->
         </form>
@@ -185,26 +189,27 @@ Old version
     </div>
     <script type="text/javascript">
         function getSubject() {
-            return 'Have a new contact from: ' + document.getElementById("fname").value + ' '
+            return 'Have a new contact from: '
+                + document.getElementById("fname").value + ' '
                 + document.getElementById("lname").value;
         }
 
         function resentSubject() {
             return 'From: Dinh Duy Manh'
-                + '\r\nTo: ' + document.getElementById("fname").value + ' '
+                + '<br />To: ' + document.getElementById("fname").value + ' '
                 + document.getElementById("lname").value
-                + '\r\nHi ' + document.getElementById("fname").value + ' '
+                + '<br />Hi ' + document.getElementById("fname").value + ' '
                 + document.getElementById("lname").value
-                + '\r\nThanks for contacting me!'
-                + '\r\nI will reply you soon'
-                + '\r\nHope you have a good day!'
-                + '\r\nDear!'
-                + '\r\nManh'
+                + '<br />Thanks for contacting me!'
+                + '<br />I will reply you soon'
+                + '<br />Hope you have a good day!'
+                + '<br />Dear!'
+                + '<br />Manh'
         }
 
         function getBody() {
-            return + "From mail: "
-                + document.getElementById("email").value + '\n'
+            return "From mail: "
+                + document.getElementById("email").value + '<br />'
                 + document.getElementById("subject").value;
         }
 
@@ -227,7 +232,13 @@ Old version
             }
         }
 
-        function sendEmail() {
+        function send() {
+
+            sendEmail();
+            resendEmail();
+        }
+
+        function resendEmail() {
             if (checkMail()) {
                 Email.send({
                     SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
@@ -235,6 +246,18 @@ Old version
                     From: 'toilamanh2002@gmail.com',
                     Subject: 'Thanks for your contact!',
                     Body: resentSubject(),
+                });
+            }
+        }
+
+        function sendEmail() {
+            if (checkMail()) {
+                Email.send({
+                    SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
+                    To: 'toilamanh2002@gmail.com',
+                    From: 'toilamanh2002@gmail.com',
+                    Subject: getSubject(),
+                    Body: getBody(),
                 }).then(
                     message => alert("mail sent successfully")
                 );
