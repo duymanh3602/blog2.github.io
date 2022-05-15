@@ -161,7 +161,7 @@ Old version
     </style>
     <script type="text/javascript">
         var onloadCallback = function () {
-            grecaptcha.render('submit', {
+            grecaptcha.render('html_element', {
                 'sitekey': '6LcOgu8fAAAAAFlxf3RLA3ysXAlfm7uORgMVT6T4',
                 'theme' : 'dark'
             });
@@ -186,8 +186,10 @@ Old version
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <div id="submit"></div>
-            <input type="button2" onclick="" value="Submit">
+            <div id="html_element"></div>
+            <input type="button2" onclick="test()" value="Submit">
+            <button id="submitBtn" disabled>Submit</button>
+
             <input type="button" class="restButton" onclick="reset()" value="Reset">
             <a>Submit button was disabled for being developing</a>
             <!--<input type="button2" onclick="alert(resentSubject())" value="Submit">-->
@@ -236,6 +238,14 @@ Old version
             } else {
                 alert("You have entered an invalid email address!");
                 return false;
+            }
+        }
+
+        function test() {
+            if (grecaptcha && grecaptcha.getResponse().length !== 0) {
+                alert("checked");
+            } else {
+                alert("not check");
             }
         }
 
