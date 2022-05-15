@@ -162,8 +162,7 @@ Old version
     <script type="text/javascript">
         var onloadCallback = function () {
             grecaptcha.render('html_element', {
-                'sitekey': '6LcOgu8fAAAAAFlxf3RLA3ysXAlfm7uORgMVT6T4',
-                'theme' : 'dark'
+                'sitekey': '6LcOgu8fAAAAAFlxf3RLA3ysXAlfm7uORgMVT6T4'
             });
         };
     </script>
@@ -253,7 +252,6 @@ Old version
         }
 
         function resendEmail() {
-            if (checkMail()) {
                 Email.send({
                     SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
                     To: getMailAddres(),
@@ -261,7 +259,6 @@ Old version
                     Subject: 'Thanks for your contact!',
                     Body: resentSubject(),
                 });
-            }
         }
 
         function sendEmail() {
