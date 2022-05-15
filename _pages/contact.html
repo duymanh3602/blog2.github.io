@@ -246,33 +246,32 @@ Old version
         }
 
         function send() {
-
-            sendEmail();
-            resendEmail();
+            if (checkMail()) {
+                sendEmail();
+                resendEmail();
+            }
         }
 
         function resendEmail() {
-                Email.send({
-                    SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
-                    To: getMailAddres(),
-                    From: 'toilamanh2002@gmail.com',
-                    Subject: 'Thanks for your contact!',
-                    Body: resentSubject(),
-                });
+            Email.send({
+                SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
+                To: getMailAddres(),
+                From: 'toilamanh2002@gmail.com',
+                Subject: 'Thanks for your contact!',
+                Body: resentSubject(),
+            });
         }
 
         function sendEmail() {
-            if (checkMail()) {
-                Email.send({
-                    SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
-                    To: 'toilamanh2002@gmail.com',
-                    From: 'toilamanh2002@gmail.com',
-                    Subject: getSubject(),
-                    Body: getBody(),
-                }).then(
-                    message => alert("mail sent successfully")
-                );
-            }
+            Email.send({
+                SecureToken: "23cb0fe7-f0fd-4f44-8f32-768d29f3b5a6",
+                To: 'toilamanh2002@gmail.com',
+                From: 'toilamanh2002@gmail.com',
+                Subject: getSubject(),
+                Body: getBody(),
+            }).then(
+                message => alert("mail sent successfully")
+            );
         }
 
     </script>
