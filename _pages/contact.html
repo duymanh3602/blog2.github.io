@@ -124,7 +124,7 @@ Old version
             resize: vertical
         }
 
-        
+
 
         input[type=button] {
             background-color: #959c99;
@@ -158,9 +158,14 @@ Old version
             border-radius: 5px;
             padding: 20px;
         }
-
-        
     </style>
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            grecaptcha.render('html_element', {
+                'sitekey': '6LcOgu8fAAAAAFlxf3RLA3ysXAlfm7uORgMVT6T4'
+            });
+        };
+    </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
@@ -180,6 +185,7 @@ Old version
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
+            <div id="html_element"></div>
             <input type="button2" onclick="" value="Submit">
             <input type="button" class="restButton" onclick="reset()" value="Reset">
             <a>Submit button was disabled for being developing</a>
@@ -264,6 +270,8 @@ Old version
             }
         }
 
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
     </script>
 </body>
 
