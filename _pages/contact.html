@@ -188,10 +188,7 @@ Old version
 
             <div id="html_element"></div>
             <input type="button2" onclick="test()" value="Submit">
-            <button id="submitBtn" disabled>Submit</button>
-
             <input type="button" class="restButton" onclick="reset()" value="Reset">
-            <a>Submit button was disabled for being developing</a>
             <!--<input type="button2" onclick="alert(resentSubject())" value="Submit">-->
         </form>
 
@@ -241,11 +238,11 @@ Old version
             }
         }
 
-        function test() {
+        function sendCaptcha() {
             if (grecaptcha && grecaptcha.getResponse().length !== 0) {
-                alert("checked");
+                send()
             } else {
-                alert("not check");
+                alert("Captcha isn't checked");
             }
         }
 
