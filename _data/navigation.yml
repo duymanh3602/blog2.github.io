@@ -4,11 +4,12 @@ main:
     url: /about/
   - title: "Blogs"
     url: /blogs/
+  - title: "CV"
+    url: /cv/
   - title: "Contact"
     url: /contact/
   - title: "Gallery"
     url: /gallery/
-  - title: "CV"
-    url: /cv/
+  
   #- title: "Stocks"
     #url: /stocks/
