@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Layout: Author Sidebar Disabled"
 excerpt: "A post to test disabling author sidebar."
 author_profile: false
